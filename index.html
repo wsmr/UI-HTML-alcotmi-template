@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Business - Professional Industrial Services</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Splide.js for carousels -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="masthead" class="site-header">
+        <div class="site-header__inner">
+            <div class="site-branding">
+                <a href="#" class="custom-logo-link">
+                    <!-- Logo placeholder - replace with your logo -->
+                    <img src="logo.svg" alt="Your Business Logo" class="custom-logo">
+                </a>
+            </div>
+            
+            <nav id="site-navigation" class="main-navigation">
+                <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                    <span class="menu-toggle__inner">
+                        <span class="menu-toggle__icon"></span>
+                        <span class="menu-toggle__text">Menu</span>
+                    </span>
+                </button>
+                
+                <div class="menu--main">
+                    <div class="menu__inner">
+                        <ul id="primary-menu" class="menu__list menu__list--0">
+                            <li class="menu-item"><a href="#about" class="menu__link">About</a></li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#services" class="menu__link">Services</a>
+                                <button class="menu__sub-toggle" aria-expanded="false">
+                                    <span class="menu__sub-toggle__inner">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </span>
+                                </button>
+                                <ul class="sub-menu menu__list menu__list--1">
+                                    <li class="menu-item"><a href="#service1" class="menu__link">Service 1</a></li>
+                                    <li class="menu-item"><a href="#service2" class="menu__link">Service 2</a></li>
+                                    <li class="menu-item"><a href="#service3" class="menu__link">Service 3</a></li>
+                                    <li class="menu-item"><a href="#service4" class="menu__link">Service 4</a></li>
+                                    <li class="menu-item"><a href="#service5" class="menu__link">Service 5</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="#projects" class="menu__link">Projects</a></li>
+                            <li class="menu-item"><a href="#careers" class="menu__link">Careers</a></li>
+                            <li class="menu-item"><a href="#contact" class="menu__link">Contact</a></li>
+                            <li class="menu-item"><a href="#" class="menu__link">English</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+            <div class="site-header__actions">
+                <div class="socials horizontal">
+                    <a href="#" class="socials__item" target="_blank" title="Follow us on LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="socials__item" target="_blank" title="Follow us on Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="socials__item" target="_blank" title="Follow us on YouTube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="#" class="socials__item" target="_blank" title="Follow us on Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="socials__item" target="_blank" title="Follow us on TikTok">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="primary" class="site-main">
+        <!-- Hero Section -->
+        <section class="hero hero--home">
+            <div class="hero__bg">
+                <!-- Background video placeholder - replace with your video -->
+                <video class="hero__video" autoplay loop muted playsinline>
+                    <source src="hero-video.mp4" type="video/mp4">
+                    <!-- Fallback image if video doesn't load -->
+                    <img src="hero-fallback.jpg" alt="Hero Background">
+                </video>
+            </div>
+            <div class="hero__inner">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        Your Industry <span class="sep"></span> Your Expertise <span class="sep"></span><br>
+                        Professional Services
+                    </h1>
+                    <div class="hero__text wysiwyg">
+                        <p>Your company is specialized in design, manufacturing, installation and maintenance of equipment in the fields of pressure vessels, boilermaking, piping and mechanics for all industrial sectors.</p>
+                    </div>
+                    <div class="hero__actions">
+                        <a href="#about" class="btn">
+                            <span class="btn__inner">About Us</span>
+                            <i class="fa-solid fa-caret-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="home-services">
+            <div class="home-services__inner">
+                <div class="home-services__header">
+                    <h2 class="home-services__title">Our Services</h2>
+                    <div class="home-services__text wysiwyg">
+                        <p>We offer a complete range of industrial services to meet all your needs.</p>
+                    </div>
+                </div>
+                <div class="home-services__list">
+                    <div class="home-services__item">
+                        <div class="home-services__item__inner">
+                            <div class="home-services__item__icon">
+                                <!-- Service icon placeholder -->
+                                <img src="service1-icon.svg" alt="Service 1">
+                            </div>
+                            <h3 class="home-services__item__title">Service 1</h3>
+                            <div class="home-services__item__text wysiwyg">
+                                <p>Custom manufacturing of high-quality industrial equipment.</p>
+                            </div>
+                            <a href="#service1" class="home-services__item__link">
+                                <span class="home-services__item__link__inner">Learn more</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="home-services__item">
+                        <div class="home-services__item__inner">
+                            <div class="home-services__item__icon">
+                                <img src="service2-icon.svg" alt="Service 2">
+                            </div>
+                            <h3 class="home-services__item__title">Service 2</h3>
+                            <div class="home-services__item__text wysiwyg">
+                                <p>Complete solutions for all your industrial piping needs.</p>
+                            </div>
+                            <a href="#service2" class="home-services__item__link">
+                                <span class="home-services__item__link__inner">Learn more</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="home-services__item">
+                        <div class="home-services__item__inner">
+                            <div class="home-services__item__icon">
+                                <img src="service3-icon.svg" alt="Service 3">
+                            </div>
+                            <h3 class="home-services__item__title">Service 3</h3>
+                            <div class="home-services__item__text wysiwyg">
+                                <p>Mechanical expertise to optimize the performance of your equipment.</p>
+                            </div>
+                            <a href="#service3" class="home-services__item__link">
+                                <span class="home-services__item__link__inner">Learn more</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="home-services__item">
+                        <div class="home-services__item__inner">
+                            <div class="home-services__item__icon">
+                                <img src="service4-icon.svg" alt="Service 4">
+                            </div>
+                            <h3 class="home-services__item__title">Service 4</h3>
+                            <div class="home-services__item__text wysiwyg">
+                                <p>Preventive and corrective maintenance to ensure the longevity of your installations.</p>
+                            </div>
+                            <a href="#service4" class="home-services__item__link">
+                                <span class="home-services__item__link__inner">Learn more</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="home-services__item">
+                        <div class="home-services__item__inner">
+                            <div class="home-services__item__icon">
+                                <img src="service5-icon.svg" alt="Service 5">
+                            </div>
+                            <h3 class="home-services__item__title">Service 5</h3>
+                            <div class="home-services__item__text wysiwyg">
+                                <p>Design and engineering services for innovative industrial solutions.</p>
+                            </div>
+                            <a href="#service5" class="home-services__item__link">
+                                <span class="home-services__item__link__inner">Learn more</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="home-about">
+            <div class="home-about__inner">
+                <div class="home-about__content">
+                    <h2 class="home-about__title">Your Company, your trusted partner</h2>
+                    <div class="home-about__text wysiwyg">
+                        <p>Since our founding, we are committed to providing the highest quality industrial solutions, tailored to the specific needs of each client. Our expertise covers boilermaking, piping, industrial mechanics and maintenance, guaranteeing reliable and durable results.</p>
+                        <p>We are proud of our qualified team and our approach focused on innovation and safety.</p>
+                    </div>
+                    <div class="home-about__actions">
+                        <a href="#about" class="btn">
+                            <span class="btn__inner">About Us</span>
+                            <i class="fa-solid fa-caret-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-about__image">
+                    <!-- About image placeholder -->
+                    <img src="about-image.jpg" alt="About Us">
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="home-projects">
+            <div class="home-projects__inner">
+                <div class="home-projects__header">
+                    <h2 class="home-projects__title">Our Projects</h2>
+                    <div class="home-projects__text wysiwyg">
+                        <p>Discover some of our projects that demonstrate our know-how and our commitment to excellence.</p>
+                    </div>
+                </div>
+                <div class="home-projects__list splide" aria-label="Projects">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="home-projects__item splide__slide">
+                                <a href="#project1" class="home-projects__item__inner">
+                                    <div class="home-projects__item__image">
+                                        <img src="project1.jpg" alt="Project 1">
+                                    </div>
+                                    <h3 class="home-projects__item__title">Heavy Industry Construction</h3>
+                                </a>
+                            </li>
+                            <li class="home-projects__item splide__slide">
+                                <a href="#project2" class="home-projects__item__inner">
+                                    <div class="home-projects__item__image">
+                                        <img src="project2.jpg" alt="Project 2">
+                                    </div>
+                                    <h3 class="home-projects__item__title">Hydro Sector Construction Piping and Mechanics</h3>
+                                </a>
+                            </li>
+                            <li class="home-projects__item splide__slide">
+                                <a href="#project3" class="home-projects__item__inner">
+                                    <div class="home-projects__item__image">
+                                        <img src="project3.jpg" alt="Project 3">
+                                    </div>
+                                    <h3 class="home-projects__item__title">Boilermaking Piping and Mechanics Maintenance</h3>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="home-projects__actions">
+                    <a href="#projects" class="btn">
+                        <span class="btn__inner">All our projects</span>
+                        <i class="fa-solid fa-caret-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="home-cta">
+            <div class="home-cta__inner">
+                <div class="home-cta__content">
+                    <h2 class="home-cta__title">Ready to start your project with us?</h2>
+                    <div class="home-cta__text wysiwyg">
+                        <p>Contact us today to discuss your needs and discover how we can help you achieve your goals.</p>
+                    </div>
+                    <div class="home-cta__actions">
+                        <a href="#contact" class="btn">
+                            <span class="btn__inner">Contact Us</span>
+                            <i class="fa-solid fa-caret-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section class="home-news">
+            <div class="home-news__inner">
+                <div class="home-news__header">
+                    <h2 class="home-news__title">News</h2>
+                </div>
+                <div class="home-news__list">
+                    <article class="home-news__item">
+                        <a href="#news1" class="home-news__item__inner">
+                            <div class="home-news__item__image">
+                                <img src="news1.jpg" alt="News 1">
+                            </div>
+                            <div class="home-news__item__content">
+                                <div class="home-news__item__meta">
+                                    <span class="home-news__item__date">14.05.2025</span>
+                                    <span class="home-news__item__cat">Construction</span>
+                                </div>
+                                <h3 class="home-news__item__title">Optimization of our facilities to better serve you</h3>
+                            </div>
+                        </a>
+                    </article>
+                    
+                    <article class="home-news__item">
+                        <a href="#news2" class="home-news__item__inner">
+                            <div class="home-news__item__image">
+                                <img src="news2.jpg" alt="News 2">
+                            </div>
+                            <div class="home-news__item__content">
+                                <div class="home-news__item__meta">
+                                    <span class="home-news__item__date">14.05.2025</span>
+                                    <span class="home-news__item__cat">Event</span>
+                                </div>
+                                <h3 class="home-news__item__title">Your Company, welding partner</h3>
+                            </div>
+                        </a>
+                    </article>
+                    
+                    <article class="home-news__item">
+                        <a href="#news3" class="home-news__item__inner">
+                            <div class="home-news__item__image">
+                                <img src="news3.jpg" alt="News 3">
+                            </div>
+                            <div class="home-news__item__content">
+                                <div class="home-news__item__meta">
+                                    <span class="home-news__item__date">14.05.2025</span>
+                                    <span class="home-news__item__cat">News</span>
+                                </div>
+                                <h3 class="home-news__item__title">Your Company unveils its new brand image</h3>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="home-news__actions">
+                    <a href="#news" class="btn">
+                        <span class="btn__inner">All news</span>
+                        <i class="fa-solid fa-caret-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Careers Section -->
+        <section class="home-careers">
+            <div class="home-careers__inner">
+                <div class="home-careers__content">
+                    <h2 class="home-careers__title">Careers</h2>
+                    <div class="home-careers__text wysiwyg">
+                        <p>Join a dynamic and passionate team. Check out our job offers and discover career opportunities at Your Company.</p>
+                    </div>
+                    <div class="home-careers__actions">
+                        <a href="#careers" class="btn">
+                            <span class="btn__inner">Job Offers</span>
+                            <i class="fa-solid fa-caret-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Members Section -->
+        <section class="home-members">
+            <div class="home-members__inner">
+                <h2 class="home-members__title">We are members of:</h2>
+                <div class="home-members__list splide" aria-label="Members">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="home-members__item splide__slide">
+                                <img src="member1.svg" alt="Member 1">
+                            </li>
+                            <li class="home-members__item splide__slide">
+                                <img src="member2.svg" alt="Member 2">
+                            </li>
+                            <li class="home-members__item splide__slide">
+                                <img src="member3.svg" alt="Member 3">
+                            </li>
+                            <li class="home-members__item splide__slide">
+                                <img src="member4.svg" alt="Member 4">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="colophon" class="site-footer">
+        <div class="site-footer__inner">
+            <div class="footer__main">
+                <div class="footer__contact">
+                    <div class="footer__logo">
+                        <a href="#" class="custom-logo-link">
+                            <img src="logo.svg" alt="Your Business Logo" class="custom-logo">
+                        </a>
+                    </div>
+                    <div class="footer__address">
+                        <p class="footer__address__title">Head Office</p>
+                        <p>123 Your Street<br>Your City, State 12345</p>
+                        <p>T. <a href="tel:123-456-7890">123-456-7890</a><br>
+                           E. <a href="mailto:info@yourbusiness.com">info@yourbusiness.com</a></p>
+                    </div>
+                    <div class="footer__actions">
+                        <a href="#contact" class="btn">
+                            <span class="btn__inner">Contact Us</span>
+                            <i class="fa-solid fa-caret-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__infolettre">
+                    <h3 class="footer__infolettre__title">Subscribe to our newsletter</h3>
+                    <p class="small">Our newsletter will keep you<br>informed of our news and topics of interest.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email" required>
+                        <button type="submit" class="btn">
+                            <span class="btn__inner">Subscribe</span>
+                            <i class="fa-solid fa-caret-right"></i>
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="footer__menu">
+                    <nav class="menu--footer">
+                        <div class="menu__inner">
+                            <ul class="menu__list menu__list--0">
+                                <li class="menu__item"><a href="#" class="menu__link">EN</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                
+                <div class="socials horizontal center mt-2">
+                    <a href="#" class="socials__item" target="_blank" title="Follow us on LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="socials__item" target="_blank" title="Follow us on Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="socials__item" target="_blank" title="Follow us on YouTube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="#" class="socials__item" target="_blank" title="Follow us on Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="socials__item" target="_blank" title="Follow us on TikTok">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer__copy">
+                <a href="#privacy">Privacy Policy and Personal Information Protection</a>
+                <div class="footer__copy__item">© All rights reserved - Your Business // Web design: <a class="footer__copy__link" target="_blank" href="#">Your Web Agency</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
