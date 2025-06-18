@@ -2,6 +2,11 @@
 
 This template requires the following image and video assets to be fully functional. Please replace these placeholder files with your actual content:
 
+## Demo
+Here's a quick look at the web application:
+
+![Demo](assets/image.jpg)
+
 ## Required Assets:
 
 ### Logo and Branding
